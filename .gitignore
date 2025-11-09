@@ -1,0 +1,72 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+node-repl-history
+
+# Build outputs
+dist/
+build/
+lib/
+out/
+.next/
+.next/cache/
+.vercel/
+.vercel_build_output/
+.next/**/cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs and runtime files
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.secret
+
+# Testing / coverage
+coverage/
+coverage-final.json
+.nyc_output/
+jest/cache/
+jest.cache
+
+# Package manager caches & lock helper files (keep lockfiles)
+.pnpm-store/
+.yarn/*cache*
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Editor/IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+*.zip
+*.bak
+*.swp
+*.swo

@@ -1,0 +1,28 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "target": "ES2022",                          // Versione JavaScript di output
+    "module": "node20",                        // Sistema di moduli per Node.js
+    "lib": ["ES2022"],                           // Librerie disponibili
+    "types": ["node"],
+    "outDir": "pj001/dist",                          // Directory di output
+    "rootDir": "./src",                          // Directory sorgenti
+    //"moduleResolution": "node",                  // Risoluzione moduli Node.js
+    "esModuleInterop": true,                     // Compatibilità import/export
+    "forceConsistentCasingInFileNames": true,    // Case-sensitive sui file
+    "strict": true,                              // Controlli strict
+    "skipLibCheck": true,                        // Velocizza compilazione
+    "resolveJsonModule": true,                    // Import di file JSON
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+  }
+}
+
