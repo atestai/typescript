@@ -9,7 +9,6 @@ node-repl-history
 # Build outputs
 dist/
 build/
-lib/
 out/
 .next/
 .next/cache/
